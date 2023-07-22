@@ -1,0 +1,21 @@
+html,
+body {
+	font-family: "Ubuntu", "Inter", sans-serif;
+	color: var(--main-color);
+}
+
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+[class*="__container"] {
+}
+
+.container {
+	max-width: 1310px;
+	padding: 0 15px;
+	margin: 0 auto;
+	height: 100%;
+}
